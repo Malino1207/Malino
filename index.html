@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+   <meta charset="utf-8">
+   <title>Welcome to my page</title>
+   <meta  name="description" content="we love the local bondi">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="robots" content="noindex,nofollow">
+   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" href="dist/css/swiper.css">
+   <link rel="canonical" href="https://lopan.jp/css-animation">
+  </head>
+  <body>
+    <header>
+    <div class="header-inner">
+      <div class="main-wrapper">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark d-flex justify-content-between">
+          <a class="navbar-brand" href="#" >
+            <span style="color:#D8CAAA">Welcome</span>
+          </a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link mr-5" href="index.html" style="color:#D8CAAA">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5" href="#about" style="color:#D8CAAA">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5" href="#skill" style="color:#D8CAAA">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5" href="#works" style="color:#D8CAAA">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contact" style="color:#D8CAAA">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-link d-sm-none" type="button" data-toggle="modal" data-target="#menuModal" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+        <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+               <h5 class="modal-title">Welcome</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">×</span>
+               </button>
+              </div>
+              <div class="modal-body">
+                <ul style="list-style-type:none;">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skill">skills</a></li>
+                  <li><a href="#works">Works</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.fullscreen -->
+    </header>
+
+    <!-- title  -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper" style="position: relative;">
+        <div class="swiper-slide "><img src="img/DSC03857.jpg"  style="max-width: 100%; height:auto; "  alt="Swiper03"></div>
+        <div class="swiper-slide "><img src="img/DSC01572.jpg" style="max-width: 100%; height:auto;"  alt="Swiper01"></div>
+        <div class="swiper-slide "><img src="img/DSC03920.jpg"  style="max-width: 100%; height:auto;" alt="Swiper02"></div>
+        <div class="swiper-slide "><img src="img/DSC03975.jpg" style="max-width: 100%; height:auto; " alt="Swiper04"></div>
+      </div>
+          <div class="swiper-text">
+            <p class="namme mb-5">Kaoru Aoki</p>
+            <p class="titie">Portfolio</p>
+          </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- about me  -->
+    <div id="about" class="about-container pt-5 pb-5 conainer-fluid" style="padding: 20%;">
+        <div class="row ">
+          <div class="about-photo col-md-6 col-sm-6" >
+            <img src="img/20190417-44.jpg" class="img-fluid " style="width:300px; text-align: right;"> 
+          </div>
+          <div class="about-text col-md-6 col-sm-6">
+            <h2 class="mb-3">About Me</h2>
+            <p> Kaoru Aoki (青木　馨)</p>
+            <p>1996年生まれ愛知県出身</p>
+            <p>写真・IT・英語を武器に世界を駆ける<br>
+            Webフォトグラファーエンジニアになる事が目標です！</p>
+            <p>海外生活２年で培った<br>
+            コミュニケーション能力には自信があります！！</p>
+            <p>ちなみにプログラミング勉強期間は３ヶ月です。</p>
+          </div>
+        </div>
+    </div>
+
+      <!-- skill  --> 
+      <!-- web-skill  -->
+
+    <div id="skill" class="skill-container pt-5 pb-5 bg-info" style="padding: 10%;">
+        <h2 class="text-center mb-3 text-warning">Web Skills</h2>
+        <div class="row" style="border-bottom: blanchedalmond 1px solid; color:white">
+          <div class="html col-md-4 text-center">
+            <h4 class="pb-3">HTML/CSS</h4>
+            <i class="fas fa-code  fa-2x"></i>
+            <p  class="ml-5" style="padding: 5%; text-align: left;">見やすいコーディングが得意です。<br>
+              希望のデバイスに沿ったデザインを<br>
+              作り上げます。<br>
+            </p>
+          </div>
+          <div class="bootstrap col-md-4 text-center">
+            <h4 class="pb-3">Boot Strap</h4>
+            <i class="fas fa-bold fa-2x"></i>
+            <p class="ml-5" style="padding: 5%; text-align: left;">bootstrapを使用し希望の<br>
+              レスポンシブデザインを作成します。
+            </p>
+          </div>
+          <div class="js col-md-4 text-center">
+            <h4 class="pb-3">Java Script</h4>
+            <i class="fab fa-node-js fa-2x"></i>
+            <p class="ml-5" style="padding: 5%; text-align: left;">簡単なスライドショーの導入等が<br>
+              行えます。<br>
+              只今、猛勉強中！！
+            </p>
+          </div>
+        </div>
+         <!-- other-skills  -->
+        <h2 class="text-center mt-3 mb-3 text-warning">Other Skills</h2>
+        <div class="row" style="color:white">
+          <div class="html col-md-4 text-center">
+            <h4 class="pb-3">Photo</h4>
+            <i class="fas fa-camera fa-2x"></i>
+            <p  class="ml-5" style="padding: 5%; text-align: left;">
+              カメラ歴２年。<br>
+              海外での撮影経験を生かしクリエイティブな
+              構図での撮影が得意です。
+              Lightroomを使い雰囲気に合わせた
+              編集が可能です。
+            </p>
+        </div>
+          <div class="html col-md-4 text-center">
+            <h4 class="pb-3">Adobe XD</h4>
+            <i class="fab fa-adobe fa-2x"></i>
+            <p  class="ml-5" style="padding: 5%; text-align: left;">
+              Adobe XDを使用し
+              <br>簡単なアイコン
+              作成が可能です。<br>
+              只今、猛勉強中！！
+            </p>
+        </div>
+          <div class="html col-md-4 text-center">
+            <h4 class="pb-3">HTML/CSS</h4>
+            <i class="fas fa-pen fa-2x"></i>
+            <p  class="ml-5" style="padding: 5%; text-align: left;">
+              ライターのお仕事もしております。<br>
+              今後はwordPressでコンテンツを
+              作成するつもりです。
+            </p>
+        </div>
+    </div>
+    </div>
+
+     <!-- works  -->
+     <div id="works" class="works-container pt-5 pb-5" style="padding: 10%;">
+      <h2 class="text-center mb-3 ">Works</h2>
+      <h4 class="text-center mb-3 ">過去の制作物の一部をご紹介します。</h4>
+      <ul class="details">
+        <li class="type1 pr-3">
+          <img src="img/webbook.png" style="max-width:100%">
+          <dl>
+            <dt>WEBデザインブック</dt>
+            <dd>こちらはwebデザインブックの課題で作成したものです。レスポンシブデザインはメディアクエリを使用して作成しました。</dd>
+            <dd><a href="https://www.placehold.it/" target="_blank">Go to page</a></dd>
+          </dl>
+        </li>
+        <li class="type1 pr-3">
+          <img src="img/flower.png" style="max-width:100%">
+          <dl>
+            <dt>WEBデザインブック</dt>
+            <dd>こちらはwebデザインブックの課題で作成したものです。レスポンシブデザインはメディアクエリを使用して作成しました。</dd>
+            <dd><a href="https://www.placehold.it/" target="_blank">Go to page</a></dd>
+          </dl>
+        </li>
+        <li class="type1">
+          <img src="img/dairy.png" style="max-width:100%">
+          <dl>
+            <dt>WEBデザインブック</dt>
+            <dd>こちらはwebデザインブックの課題で作成したものです。レスポンシブデザインはメディアクエリを使用して作成しました。</dd>
+            <dd><a href="https://www.placehold.it/" target="_blank">Go to page</a></dd>
+          </dl>
+        </li>
+      </ul>
+     </div>
+
+     <!-- contact  -->
+     <div id="contact" class="contact-container pt-5 pb-5" style="padding: 10%; background-color: #86B8E2;">
+      <h2 class="text-center mb-3 ">Contact</h2>
+      <p class="text-center">SNSでもお問い合わせいただけます。</p>
+      <div class="row text-center d-flex flex-row justify-content-center">
+          <div class="facebook pr-4">
+            <a href="https://www.facebook.com/aoki.kaoru.714?fref=nf">
+              <i class="fab fa-facebook-square fa-5x fa-blue"></i>
+            </a>
+          </div>
+          <div class="insta">
+            <a href="https://www.instagram.com/aoki1207/?hl=ja">
+              <i class="fab fa-instagram fa-5x fa-pink"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-me text-center pt-3">
+          <h4>tell</h4>
+          <p>08026514942</p>
+          <h4>E-mail</h4>
+          <p>1207a1479@gmail.com</p>
+        </div>
+        <p id="page-top"><a href="#">PAGE TOP</a></p>
+      </div>
+
+      <footer>
+        <p class="text-center" style="color:#B5B5B5";><small>&copy;2020/Kaoru Aoki/portfolio</small></p>
+      </footer>
+
+
+    <script src="dist/js/swiper.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect:'.slide',
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop:true,
+        autoplay: {
+          delay:3000,
+          disableOnInteraction: true
+        },
+        pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true,
+    },
+      });
+
+    </script>
+    <script>
+      $('.navbar-nav>li>a , .dropdown-menu>a').on('click', function(){
+          if(this.id != 'navbarDropdown'){
+            $('.navbar-collapse').collapse('hide');
+          }
+      });
+      </script>
+       <script>
+
+        $(function() {
+            var topBtn = $('#page-top');    
+            topBtn.hide();
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    topBtn.fadeIn();
+                } else {
+                    topBtn.fadeOut();
+                }
+            });
+            topBtn.click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+                return false;
+            });
+        });
+      </script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
+
